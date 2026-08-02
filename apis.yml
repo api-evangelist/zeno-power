@@ -1,7 +1,28 @@
 aid: zeno-power
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zeno-power.png
 name: Zeno Power
-description: Zeno Power is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Zeno Power is a deep-tech energy company developing radioisotope power
+  systems (nuclear batteries) that convert the heat of radioisotope decay into reliable,
+  long-duration electricity for extreme environments where conventional power sources
+  fail. Its compact radioisotope Stirling generators target 1-100+ watts for use
+  cases spanning NASA lunar surface missions (americium-241 fueled), seabed and
+  maritime sensor infrastructure, and Department of Defense / U.S. Space Force
+  applications (strontium-90 fueled). The company works with partners including NASA,
+  the Pentagon, Westinghouse, and Orano, with commercial market delivery targeted
+  for 2027. Backed by DCVC, Zeno Power was added to the API Evangelist network as a
+  portfolio lead; enrichment found no public API, developer platform, SDKs, or
+  technical documentation surface as of this pass.
 url: https://raw.githubusercontent.com/api-evangelist/zeno-power/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Energy
+- Nuclear
+- Radioisotope Power
+- Aerospace
+- Defense
+- Deep Tech
+- Space
 apis: []
+common:
+- type: Website
+  url: https://www.zenopower.com
+- type: Blog
+  url: https://www.zenopower.com/in-the-news
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
