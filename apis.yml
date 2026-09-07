@@ -55,6 +55,8 @@ tags:
 - Space
 apis: []
 common:
+- type: DomainSecurity
+  url: security/zeno-power-domain-security.yml
 - type: Website
   url: https://www.zenopower.com
 - type: Blog
